@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width:1519px;
+    font-family:cursive;
+}
+.head{
+    background-image: linear-gradient(to right, black,#520000);
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 80px;
+}
+.navigation{
+    margin-right: 20px;
+    list-style-type: none;
+    align-self: center;
+    
+}
+.abc{
+   text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.link:hover,
+.abc:hover{
+    border-bottom: 2px solid yellow;
+    transition: 0.1s;
+}
+header{
+    background-image: url(gear.jpg);
+    height: 760px;
+}
+.intro{
+    color: yellow;
+    letter-spacing: 2px;
+    font-size: 60px;
+    margin-top: 230px;
+    margin-left: 50px;
+}
+.kys_heading{
+    font-family: fantasy;
+    color: #1d1d1d;
+    margin: 30 auto;
+    width: 550px;
+    font-size: 30px;
+}
+.kys_heading::after{
+    content: "";
+    width: 150px;
+    height:4px;
+    background-color: yellow;
+    display: block;
+    margin: 40 auto;
+}
+.seniors{
+    height: 270px;
+}
+.data{
+    margin: 40px;;
+    display: grid;
+    grid-template-columns: repeat(4,350px);
+}
+.item{
+    padding: 30px;
+}
+ion-icon{
+    color: black;
+    font-size: 25px;
+}
+.link{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 17px;
+}
+h4{
+    margin-top: 20px;
+    word-break: break-all;
+}
+footer{
+    height: 250px;
+    background-color: #324b32;
+    display: flex;
+    justify-content: center;
+}
+.row{
+    width: 700px;
+    margin-top:80px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    margin-bottom: 10px;
+}
+p{
+    font-weight: bolder;
+    font-size: 18px;
+}
