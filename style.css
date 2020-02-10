@@ -65,6 +65,7 @@ header{
 }
 .seniors{
     height: 270px;
+    border-radius: 80px;
 }
 .data{
     margin: 40px;;
