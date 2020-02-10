@@ -68,7 +68,8 @@ header{
     border-radius: 80px;
 }
 .data{
-    margin: 40px;;
+    width: 92%;
+    margin: 20px auto;
     display: grid;
     grid-template-columns: repeat(4,350px);
 }
